@@ -12,6 +12,10 @@ readme = "README.md"
 [badges]
 travis-ci = { repository = "lloydmeta/frunk" }
 
+[features]
+default = ["std"]
+std = ["frunk_core/std"]
+
 [dev-dependencies]
 time = "0.1.36"
 
